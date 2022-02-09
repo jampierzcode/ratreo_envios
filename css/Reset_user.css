@@ -1,0 +1,76 @@
+.title_search {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.search_user {
+  width: 100%;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.search_user input {
+  background: transparent;
+  width: 100%;
+  padding: 12px 24px;
+}
+.search_user .search_btn {
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--amarillo);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.search_user .search_btn i {
+  font-size: 14px;
+  color: #4c4c4c;
+}
+
+/* Card de usuario buscado */
+.container-user {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 0px;
+}
+.container-user .card-user {
+  width: 100%;
+  padding: 30px 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #ececec;
+  margin-bottom: 20px;
+  position: relative;
+}
+.container-user .card-user h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--verde);
+}
+.container-user .card-user p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container-user .card-user p > span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.container-user .card-user .edit_user {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* MOdal oculto */
+.md-hidden {
+  display: none;
+}

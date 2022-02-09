@@ -1,0 +1,65 @@
+.title_search {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.search_user {
+  width: 100%;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.search_user input {
+  background: transparent;
+  width: 100%;
+  padding: 12px 24px;
+}
+.search_user .search_btn {
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--amarillo);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.search_user .search_btn i {
+  font-size: 14px;
+  color: #4c4c4c;
+}
+
+/* CARDS DE QUEJAS USER */
+.container-quejas {
+  margin-top: 30px;
+}
+.queja_user {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 1px 10px 1px #ececec;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.queja_user h1 {
+  color: var(--verde);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.queja_user h1 > span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.queja_user p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.queja_user p > span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}

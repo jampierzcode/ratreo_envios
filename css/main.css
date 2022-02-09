@@ -1,0 +1,68 @@
+:root {
+  --rojo: rgb(224, 49, 50);
+  --verde: #0bc85b;
+  --amarillo: #ffae00;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+button {
+  border-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border-style: none;
+  font-family: "Quicksand", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+select {
+  border-style: none;
+}
+select:focus {
+  outline: none;
+}
+textarea {
+  border-style: none;
+  font-family: "Quicksand", sans-serif;
+}
+textarea:focus {
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+}
+li {
+  list-style: none;
+}
+.toast-error {
+  width: 100%;
+  padding: 10px 24px;
+  background: #fff;
+  box-shadow: 0px 2px 10px 1px #ececec;
+  margin-bottom: 20px;
+}
+.toast-error p {
+  font-weight: 500;
+  color: var(--rojo);
+}
+.toast-verify {
+  width: 100%;
+  padding: 10px 24px;
+  background: #fff;
+  box-shadow: 0px 2px 10px 1px #ececec;
+  margin-bottom: 20px;
+}
+.toast-verify p {
+  font-weight: 500;
+  color: var(--verde);
+}

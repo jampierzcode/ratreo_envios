@@ -1,0 +1,63 @@
+#crear_envios {
+  padding: 12px 24px;
+  color: #fff;
+  background: #000;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.title_envios {
+  font-size: 25px;
+}
+.container-envios {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 0px;
+}
+.container-envios .card-envios {
+  width: 49%;
+  padding: 30px 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 8px 8px -8px 0px #ececec;
+  border: 3px dashed #4c4c4c;
+  margin-bottom: 20px;
+  position: relative;
+}
+.container-envios .card-envios .rutas_envios {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-envios .card-envios .rutas_envios > .destino {
+  margin-left: 10px;
+}
+.container-envios .card-envios h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+.container-envios .card-envios p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container-envios .card-envios p > span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.container-envios .card-envios .edit_envios {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* MOdal oculto */
+.md-hidden {
+  display: none;
+}

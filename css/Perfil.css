@@ -1,0 +1,76 @@
+.container-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-user {
+  width: 400px;
+  box-shadow: 0px 0px 10px -3px #efefef;
+}
+.card-user .header-card {
+  width: 400px;
+  height: 100px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  z-index: 10;
+}
+.card-user .body-card {
+  padding: 30px 25px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card-user .body-card img {
+  width: 120px;
+  height: 120px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-user .body-card .list-dates {
+  width: 100%;
+  height: 100%;
+}
+.card-user .body-card .list-dates .dates {
+  width: 100%;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-user .body-card .list-dates .dates > span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Estilos para boton de editar usuario */
+.card-nav-modal {
+  margin-left: 40px;
+}
+.card-dashboard {
+  width: 150px;
+  height: 100px;
+  padding: 24px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #4c4c4c;
+  text-align: center;
+  cursor: pointer;
+}
+.card-dashboard i {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 12px;
+}

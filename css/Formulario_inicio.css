@@ -1,0 +1,96 @@
+.container-forms {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-form {
+  width: 450px;
+  background-color: var(--rojo);
+  box-shadow: 0px 10px 10px 0px #eff0f3;
+}
+.login-form {
+  padding: 60px 50px;
+}
+.register-form {
+  padding: 20px 50px;
+}
+.section-form form {
+  width: 100%;
+}
+.section-form > .head-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+}
+.section-form .head-img img {
+  width: 180px;
+}
+.section-form form .header-form {
+  width: 100%;
+}
+.section-form form .header-form h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.section-form form .header-form p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.section-form form .body-form {
+  width: 100%;
+}
+.section-form form .body-form .controls-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2px 20px;
+  margin-bottom: 20px;
+  background: #f9fafc;
+  border-radius: 4px;
+}
+.section-form form .body-form .controls-form i {
+  font-size: 16px;
+  color: #323433;
+}
+.section-form form .body-form .controls-form input {
+  width: 100%;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+}
+.section-form form .body-form .btn-submit {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #4c4c4c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Si no tienes cuenta */
+
+.link_mode {
+  cursor: pointer;
+  transition: all 0.5s;
+  color: var(--verde);
+  font-weight: 600;
+}
+.link_mode:hover {
+  color: var(--rojo);
+}

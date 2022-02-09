@@ -1,0 +1,137 @@
+/* Modal Update */
+.modal-update {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.329);
+  position: fixed;
+  z-index: 70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.md-hidden {
+  display: none;
+}
+.documento-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+.documento-section > input {
+  margin-bottom: 0px !important;
+}
+.documento-section > .btn-form {
+  width: 50px;
+  background-color: #4c4c4c;
+  color: #fff;
+  border-radius: 0px 4px 4px 0px;
+}
+.modal-update .container-modal {
+  width: 900px;
+  background: #fff;
+  padding: 40px 50px;
+  position: relative;
+  margin-top: 200px;
+  overflow: hidden;
+}
+.modal-update .container-modal .close-modal {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-update .container-modal .close-modal i {
+  cursor: pointer;
+  padding: 12px;
+}
+.modal-update .container-modal .header-img-modal {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.modal-update .container-modal .header-img-modal img {
+  width: 150px;
+}
+.modal-update .container-modal h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal-update .container-modal input {
+  width: 100%;
+  background: #f7f7f7;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.modal-update .container-modal .dates_rutas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.modal-update .container-modal .dates_rutas .col-3 {
+  width: 30%;
+}
+.modal-update .container-modal .dates_rutas .col-2 {
+  width: 48%;
+}
+.modal-update .container-modal #email-user {
+  background: #f7f7f7 !important;
+}
+.modal-update .container-modal .btn-submit-update {
+  width: 100%;
+  background: #4c4c4c;
+  color: #fff;
+  padding: 12px 24px;
+  font-family: "Quicksand", sans-serif;
+}
+/* Con select */
+.modal-update .container-modal label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.modal-update .container-modal select {
+  width: 100%;
+  background: #f7f7f7;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.modal-update .container-modal textarea {
+  width: 100%;
+  background: #f7f7f7;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Respuesta (toast) */
+.toast-exito {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  padding: 12px 24px;
+  width: 80%;
+  background: var(--verde);
+  transform: translateX(100%);
+  transition: transform 1s;
+  color: #fff;
+}
+.toast_show {
+  transform: translateX(0) !important;
+}
+.toast-fracaso {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  padding: 12px 24px;
+  width: 80%;
+  background: var(--rojo);
+  transform: translateX(100%);
+  transition: transform 1s;
+  color: #fff;
+}
